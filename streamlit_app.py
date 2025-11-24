@@ -20,3 +20,6 @@ a9 = st.number_input("Masukkan indeks variabel A9:", min_value=0, max_value=100)
 b1 = st.number_input("Masukkan indeks variabel B1:", min_value=0, max_value=100)
 b2 = st.number_input("Masukkan indeks variabel B2:", min_value=0, max_value=100)
 b3 = st.number_input("Masukkan indeks variabel B3:", min_value=0, max_value=100)
+
+if st.button("Hitung"):
+    st.write("Halo,", b3)
