@@ -22,4 +22,4 @@ b2 = st.number_input("Masukkan indeks variabel B2:", min_value=0, max_value=100)
 b3 = st.number_input("Masukkan indeks variabel B3:", min_value=0, max_value=100)
 
 if st.button("Hitung"):
-    st.write("Halo,", b3)
+    st.write("Hasilnya adalah (X1,X2,X2,", b3, b2, b1)
